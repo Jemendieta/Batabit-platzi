@@ -1,0 +1,37 @@
+/* mi código css 
+  1. posicionamiento
+  2. modelo de caja
+  3. tipografía
+  4. visualea  (shadow, borders etc)
+  5. otros
+*/
+/* imports */
+@import url(./header.css);
+@import url(./info.css);
+@import url(./products.css);
+@import url(./banner-middle.css);
+@import url(./planes.css);
+@import url(./footer.css);
+
+:root {
+  /* color */
+  --bitcoin-orange: #f7931a;
+  --black: #282623;
+  --gray: #bababa;
+  --off-white: #faf8f7;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --soft-orange: #ffe9d5;
+  --warm-black: #201e1c;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
